@@ -19,6 +19,7 @@ import menus from "./components/tree-view/data";
 import UseFetchHookTest from "./components/use-fetch/test";
 import UseOnclickOutsideTest from "./components/use-outside-click/test";
 import UseWindowResizeTest from "./components/use-window-resize/test";
+import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
 
 function App() {
   return (
@@ -80,7 +81,10 @@ function App() {
       {/* <UseOnclickOutsideTest/> */}
 
       {/* Use Window Resize Hook Test */}
-      <UseWindowResizeTest/>
+      {/* <UseWindowResizeTest/> */}
+
+      {/* To scroll to bottom and top using a button */}
+      <ScrollToTopAndBottom/>
     </div>
   );
 }
